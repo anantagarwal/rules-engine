@@ -1,0 +1,13 @@
+{
+  "condition": {
+    "age": { "greaterThan": 65 },
+    "location": { "contains": "India" }
+  },
+  "action": {
+    "setDiscount": 15,
+    "sendEmail": {
+      "to": "customer@example.com",
+      "subject": "Special Discount"
+    }
+  }
+}
